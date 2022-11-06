@@ -1,5 +1,5 @@
 import pyfinite.ffield as pf
-from math import sqrt
+from numpy import sqrt
 
 # number of element in the field : 
 CARDINAL = 15
@@ -18,3 +18,5 @@ def power(x : int, n : int) -> int :
         return F.Multiply(x, power(F.Multiply(x, x), (n-1)/2))
 
 X = [0] + [power(PRIMITIVE, p) for p in range(CARDINAL)]
+
+
