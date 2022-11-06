@@ -7,7 +7,10 @@ F = pf.FField(int(sqrt(CARDINAL + 1)))
  
 MESSAGE_SIZE = 9
 PRIMITIVE = 2
+NUMBER_OF_ERRORS = (CARDINAL - MESSAGE_SIZE)//2
 
+DEGREE_POLYNOME_Q0 = CARDINAL - 1 - NUMBER_OF_ERRORS
+DEGREE_POLYNOME_Q1 = CARDINAL - MESSAGE_SIZE - NUMBER_OF_ERRORS
 
 def power(x : int, n : int) -> int :
     if n == 0 : return 1
