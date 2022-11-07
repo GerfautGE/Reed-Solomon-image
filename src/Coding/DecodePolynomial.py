@@ -1,7 +1,7 @@
 import pyfinite.genericmatrix as pmat
-from src.FiniteField import CARDINAL, DEGREE_POLYNOME_Q0, DEGREE_POLYNOME_Q1, power, X, F
-from src.Matrix import adn, subn, multn, divn 
-from src.Polynomial import Polynomial
+from src.Math.FiniteField import CARDINAL, DEGREE_POLYNOME_Q0, DEGREE_POLYNOME_Q1, power, X, F
+from src.Math.Matrix import adn, subn, multn, divn 
+from src.Math.Polynomial import Polynomial
 
 def decode_polynomial(message : list)->list:
     # definition of M from the message 

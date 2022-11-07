@@ -1,4 +1,4 @@
-from src.FiniteField import CARDINAL, NUMBER_OF_ERRORS
+from src.Math.FiniteField import CARDINAL, NUMBER_OF_ERRORS
 from random import randrange
 
 def error(l: list, r=CARDINAL, n=NUMBER_OF_ERRORS) -> list:
