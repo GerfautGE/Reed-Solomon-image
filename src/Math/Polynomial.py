@@ -1,4 +1,4 @@
-from src.FiniteField import power, F
+from src.Math.FiniteField import power, F
 
 def trimseq(seq):
     if len(seq) == 0: return seq

@@ -1,5 +1,5 @@
-from src.FiniteField import CARDINAL, MESSAGE_SIZE, F, DEGREE_POLYNOME_Q0, DEGREE_POLYNOME_Q1, power, X
-from src.Matrix import CONTROL_MATRIX, ENCODE_MATRIX_INVERSE, syndrome_extracted, control_extracted
+from src.Math.FiniteField import CARDINAL, MESSAGE_SIZE, F, DEGREE_POLYNOME_Q0, DEGREE_POLYNOME_Q1, power, X
+from src.Math.Matrix import CONTROL_MATRIX, ENCODE_MATRIX_INVERSE, syndrome_extracted, control_extracted
 
 
 def decode_syndrome(message: list)->list:
@@ -26,7 +26,6 @@ def decode_syndrome(message: list)->list:
         else:
             a = F.Divide(a, UPPER[TAILLE - element - 1, TAILLE - element - 1])
             coef = [a] + coef
-        print(coef)
     indice = []
     
     coef.reverse()

@@ -1,5 +1,5 @@
 import pyfinite.genericmatrix as pmat
-from src.FiniteField import F, power, X, CARDINAL, MESSAGE_SIZE, DEGREE_POLYNOME_Q0, DEGREE_POLYNOME_Q1
+from src.Math.FiniteField import F, power, X, CARDINAL, MESSAGE_SIZE, DEGREE_POLYNOME_Q0, DEGREE_POLYNOME_Q1
 
 def adn(x, y): 
     return F.Add(x, y)
