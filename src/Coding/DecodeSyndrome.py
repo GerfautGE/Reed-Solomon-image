@@ -26,7 +26,6 @@ def decode_syndrome(message: list)->list:
         else:
             a = F.Divide(a, UPPER[TAILLE - element - 1, TAILLE - element - 1])
             coef = [a] + coef
-        print(coef)
     indice = []
     
     coef.reverse()
