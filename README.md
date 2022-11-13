@@ -4,15 +4,15 @@ this is a simple program to encode and decode images using Reed-Solomon codes.
 
 it is written in Python 3.x and uses the [Pyfinite Module](https://github.com/emin63/pyfinite) from [@Emin63](https://github.com/emin63/pyfinite).
 
-## Usage
+---
 
-----
+## Usage
 
 ### Encoding
 
 ```Python
 from src.Coding.Encode import encode
-from src.Math.FiniteFIeld import CARDINAL,  MESSAGE_SIZE
+from src.Math.FiniteField import CARDINAL,  MESSAGE_SIZE
 from random import randrange()
 
 message = [randrange(0, CARDINAL) for _ in range(MESSAGE_SIZE)]
