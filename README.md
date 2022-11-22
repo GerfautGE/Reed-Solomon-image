@@ -1,8 +1,8 @@
 # Reed-Solomon-image
 
-this is a simple program to encode and decode images using Reed-Solomon codes.
+This is a simple program to encode and decode images using Reed-Solomon codes.
 
-it is written in Python 3.x and uses the [Pyfinite Module](https://github.com/emin63/pyfinite) from [@Emin63](https://github.com/emin63/pyfinite).
+It is written in Python 3.x and relies on the [Pyfinite Module](https://github.com/emin63/pyfinite) from [@Emin63](https://github.com/emin63/pyfinite).
 
 ---
 
